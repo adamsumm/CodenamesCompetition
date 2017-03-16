@@ -43,7 +43,7 @@ if __name__ == "__main__":
                     sys.exit()
                 else :
                     #print data
-                    sys.stdout.write(data)
+                    sys.stdout.write(data + '\n')
                     prompt()
              
             #user entered a message
